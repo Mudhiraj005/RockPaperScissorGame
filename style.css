@@ -1,0 +1,65 @@
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top:250px ;
+            background-color: rgb(182, 135, 79,0.8);
+        }
+    .mainBlock{
+        padding-top:50px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        height: 600px;
+        width: 1500px;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 1px 2px 2px 1px;
+        background-color: blanchedalmond;
+       
+       
+    }
+
+      img {
+        height: 250px;
+        width: 250px;
+        border: solid;
+        border-radius: 200px;
+        transition: 3ms;
+    }
+      img:hover{
+        opacity: 0.8;
+    }
+      .imageBlock {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .resetBlock{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 60px;
+      }
+      .resetButton{
+        font-size: larger;
+        padding: 10px 15px 10px 15px;
+        border-radius:15px ;
+        background-color: rgb(241, 225, 107);
+        font-weight: bold;
+        border: none;
+    }
+    .resetButton:hover{
+        opacity: 0.8;
+    }
+    .resetButton:active{
+        opacity: 0.5;
+    }
+    .scoreBlock{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-weight: bold;
+        font-size: larger;
+    }
